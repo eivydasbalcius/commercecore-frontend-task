@@ -1,0 +1,50 @@
+@import "../utils/mixins";
+
+.shipping-address-input-box {
+  @include inputBox(298px);
+}
+
+.postal-code-input-box {
+  @include inputBox(298px);
+}
+
+.shipping-section {
+  padding-bottom: 30px;
+}
+
+.dropdowns {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 46px;
+}
+
+.address-input-box {
+  margin-top: 16px;
+}
+
+select {
+  padding: 15px 0px 1px 6px;
+  width: 298px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  color: #c9c9c9;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+span.dropdown-title {
+  height: 16px;
+
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  margin-top: -45px;
+
+  margin-left: 10px;
+
+  font-size: 11px;
+  color: #828282;
+}

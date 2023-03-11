@@ -1,0 +1,61 @@
+@import "../utils/mixins";
+
+.payment-card-number {
+  @include inputBox(560px);
+}
+
+.mm-yy {
+  @include inputBox(112px);
+}
+
+.ccv {
+  @include inputBox(112px);
+}
+
+.payment-section {
+  padding-bottom: 146px;
+}
+
+#payment-heading {
+  margin-bottom: 16px;
+}
+
+.credit-card-title-container {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+
+  width: 592px;
+  height: 54px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 6px 6px 0 0;
+}
+
+.payment-method-container {
+  box-sizing: border-box;
+  position: absolute;
+  width: 592px;
+  height: 146px;
+  border: 1px solid #f2f2f2;
+  border-radius: 0 0 6px 6px;
+  background-color: #fafafa;
+  margin-bottom: 31px;
+}
+
+.card-number-box {
+  padding-top: 17px;
+  padding-left: 15px;
+}
+
+.mm-yy-ccv-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 128px;
+  padding-top: 61px;
+  padding-left: 15px;
+}

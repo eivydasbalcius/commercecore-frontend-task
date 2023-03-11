@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #dc624e;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+  padding-left: 35px;
+
+  font-style: normal;
+  font-weight: 100;
+  font-size: 11px;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+
+}
+
+.logo {
+  margin-left: 17%;
+}
+
+.legal-rights {
+  margin-left: 37%;
+}

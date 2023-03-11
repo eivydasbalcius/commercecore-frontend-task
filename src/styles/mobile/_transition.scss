@@ -1,0 +1,186 @@
+  .background {
+    padding-top: 38px;
+    height: 120vh;
+    background: linear-gradient(to top, #ffffff 40%, #f8f1eb 0%);
+  }
+  
+
+  
+  .checkout-form-container {
+    margin-left: 30vw;
+  }
+
+  .footer {
+    display: none;
+  }
+  
+//Checkout Form//
+
+.container {
+  max-width: 55%;
+}
+
+#form-title {
+
+  margin-left: 25%;
+  padding-left: 2px;
+  padding-bottom: 15px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+.checkout-form-container {
+
+  width: 640px;
+  height: 787px;
+  border: 1px solid;
+  border-color: #e9d6c5;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-left: 25%;
+  margin-right: 70px;
+  margin-bottom: 50px;
+
+}
+.checkout-form {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  margin-top: 30px;
+}
+
+h3 {
+  padding-left: 1px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bdbdbd;
+}
+
+//order summary//
+
+
+.image {
+  background-color: #f8f1eb;
+  height: 80px;
+  width: 80px;
+}
+
+.product-section {
+  margin-top: 100px;
+  padding-top: 2px;
+  margin-left: 20%;
+
+}
+
+.remove-button {
+  opacity: 0;
+  background: none;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+
+  color: #dc624e;
+}
+
+.product-list:hover .remove-button {
+  opacity: 1;
+}
+
+dl {
+  width: 500px;
+    
+}
+
+ul {
+
+  width: 500px;
+}
+
+li {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 32px;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.align-product-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  padding-top: 30px;
+}
+
+.product-name {
+  flex: 1 1 auto;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 18px;
+  color: #333333;
+}
+
+.product-amount {
+  font-weight: 600;
+}
+
+.product-price {
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  text-align: right;
+  color: #000000;
+}
+
+#total {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #828282;
+}
+
+.total-price-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.total-price {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 20px;
+  font-size: 25px;
+  font-weight: 650;
+}
+
+.currency {
+
+font-weight: 550;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}

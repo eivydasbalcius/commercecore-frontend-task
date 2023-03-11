@@ -1,0 +1,17 @@
+@import "../utils/mixins.scss";
+
+.contact-info-heading {
+  padding-bottom: 20px;
+}
+
+.customer-info {
+  @include inputBox(288px);
+}
+
+.customer-info-input-boxes {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 304px;
+}

@@ -1,0 +1,22 @@
+@mixin inputBox($width) {
+  box-sizing: border-box;
+  position: absolute;
+  
+  width: $width;
+  height: 48px;
+  
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+
+  &::placeholder {
+    position: absolute;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #bdbdbd;
+  }
+
+}

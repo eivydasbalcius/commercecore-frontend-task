@@ -1,0 +1,35 @@
+@media (min-width: 1440px) {
+  @import "./desktop/orderSummary/order-summary";
+  @import "./desktop/checkoutForm/header";
+  @import "./desktop/footer/footer";
+  @import "./desktop/background/background";
+  @import "./desktop/checkoutForm/checkout-form";
+  @import "./desktop/checkoutForm/customer-information";
+  @import "./desktop/checkoutForm/shipping-address";
+  @import "./desktop/checkoutForm/payment-method";
+  @import "./desktop/checkoutForm/complete-button";
+  @import "./desktop/checkoutForm/sponsor-logos";
+}
+
+@media (max-width: 1439px) and (min-width: 426px) {
+  @import "./mobile/transition";
+  @import "./desktop/checkoutForm/header";
+  @import "./desktop/checkoutForm/customer-information";
+  @import "./desktop/checkoutForm/shipping-address";
+  @import "./desktop/checkoutForm/payment-method";
+  @import "./desktop/checkoutForm/complete-button";
+  @import "./desktop/checkoutForm/sponsor-logos";
+}
+
+@media (max-width: 425px) {
+  @import "./mobile/mobile-background";
+  @import "./mobile/mobile-checkout-form";
+  @import "./mobile/mobile-customer-information";
+  @import "./mobile/mobile-shipping-address";
+  @import "./mobile/mobile-payment-method";
+  @import "./mobile/mobile-complete-button";
+  @import "./mobile/mobile-sposnor-logos";
+  @import "./mobile/mobile-footer";
+  @import "./mobile/header/mobile-header";
+  @import "./mobile/header/mobile-order-summary";
+}
