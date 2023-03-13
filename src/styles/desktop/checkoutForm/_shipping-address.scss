@@ -1,5 +1,4 @@
-@import "../utils/mixins";
-
+@import "../../utils/mixins.scss";
 .shipping-address-input-box {
   @include inputBox(592px);
 }

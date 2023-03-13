@@ -1,4 +1,4 @@
-@import "../utils/mixins";
+@import "../../utils/mixins.scss";
 
 .payment-card-number {
   @include inputBox(560px);
