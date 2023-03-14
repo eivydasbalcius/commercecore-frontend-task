@@ -2,9 +2,9 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["tailwindui.com", "commercecore.local"],
+    domains: ["eivydasbalcius.online"],
   },
   experimental: {
     appDir: true,
-  }
-}
+  },
+};

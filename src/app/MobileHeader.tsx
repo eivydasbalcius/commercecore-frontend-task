@@ -7,9 +7,16 @@ import cartImg from "../images/shoppingCart.svg";
 import arrowImg from "../images/left-arrow.svg";
 import upArrowImg from "../images/up-arrow.svg";
 import OrderSummary from "./OrderSummary";
+import { Order } from "../mapper/types";
 
-function MobileHeader({ pages }) {
+function MobileHeader({ orderData }: { orderData: Order[] }) {
   const [isShown, setIsShown] = useState(false);
+
+  const totalPrice = orderData?.reduce(
+    (sum: number, currentProduct: { price: number; amount: number }) =>
+      sum + currentProduct?.price! * currentProduct?.amount!,
+    0
+  );
 
   return (
     <div>
@@ -59,20 +66,13 @@ function MobileHeader({ pages }) {
             </>
           )}
           <div className="header-total-price">
-            {pages?.nodes.map((node) => {
-              const totalPrice = node.product_1?.product?.reduce(
-                (sum, currentProduct) =>
-                  sum + currentProduct?.price! * currentProduct?.amount!,
-                0
-              );
-              return <p>${totalPrice}</p>;
-            })}
+            <p>${totalPrice}</p>
           </div>
         </div>
         <div>
           {isShown ? (
             <div className="order-dropdown">
-              <OrderSummary pages={pages} />
+              <OrderSummary orderData={orderData} />
             </div>
           ) : null}
         </div>
