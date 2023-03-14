@@ -1,35 +1,29 @@
 # Next.js + WordPress CommerceCore Task
 
-#FrontEnd Setup
-
-*Clone project repository:
-git clone https://github.com/eivydasbalcius/commercecore-frontend-task.git
-
-*Open project in VSCode
-
-*Install needed dependencys:
-
-npm i
-
-*Run CommerceCore Project using command:
-
-npm run dev
-
-*Open website using URL:
-
-http://localhost:3000
-
 # Wordpress Setup
 
-*To install WordPress solution follow WordPress Duplicator Documentation:
+- To enter WordPress Admin pannel go to this link:
 
-https://snapcreek.com/duplicator/docs/quick-start/?
+ https://eivydasbalcius.online/wp-admin/
 
-*Under Install Modes select Classic Install and follow the instructions
+# FrontEnd Setup
 
-*Installer file (installer.php) and Archive folder (commercecore_archive) are in the root directory of project repository in "WordpressArchive" folder 
+- Clone project repository:
 
-*Credentials to WP-Admin site are:
+  git clone https://github.com/eivydasbalcius/commercecore-frontend-task.git
 
-Username: admin
-Password: admin
+- Open project in VSCode
+
+- Install needed dependencys:
+
+  npm i
+
+- Add .env file to root directory. Inside env file define WORDPRESS_API_URL
+
+- Run CommerceCore Project using command:
+
+  npm run dev
+
+- Open website using URL:
+
+ http://localhost:3000
